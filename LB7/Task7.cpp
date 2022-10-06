@@ -1,0 +1,121 @@
+#include <cmath>
+#include "Task7.h"
+
+int factorial(int n) {
+    if (n == 0) return 1;
+    return n * factorial(n - 1);
+}
+
+void task1() {
+    int x;
+    cout << "Enter x: ";
+    cin >> x;
+
+    double y = pow(sin(x), 5) + abs(5 * x - 1.5);
+
+    cout << "y = " << y << endl << endl;
+}
+
+void task2() {
+    double rootSum;
+
+    for (int i = 10; i < 20; ++i) {
+        rootSum += sqrt(i);
+    }
+    cout << "rootSum = " << rootSum << endl << endl;
+}
+
+void task3() {
+    int a, b, h;
+    cout << "Enter a: ";
+    cin >> a;
+    cout << "Enter b: ";
+    cin >> b;
+    cout << "Enter h: ";
+    cin >> h;
+
+    for (int i = a; i < b; i += h) {
+        cout << "x = " << i << ", ";
+        if (i < 7 || i == -5) {
+            cout << "y = N" << endl;
+            continue;
+        }
+        double y = 8 + sqrt(i - 7) / (i + 5);
+        cout << "y = " << y << endl << endl;
+    }
+}
+
+void task4_4() {
+    int x, e;
+    cout << "Enter x: ";
+    cin >> x;
+    cout << "Enter e: ";
+    cin >> e;
+
+    int count = 1;
+    double sum = x;
+
+    for (int i = 0; i < infinity(); ++i) {
+        double part = pow(x, (count + 1)) / factorial(count + 1);
+
+        if (abs(part) < e) break;
+
+        if (count % 2 == 0) {
+            sum += part;
+        } else {
+            sum -= part;
+        }
+        count++;
+    }
+    cout << "Sum = " << sum << endl << endl;
+    cout << "Count = " << count << endl << endl;
+}
+
+void task4_5() {
+    int n, m;
+    cout << "Enter m: ";
+    cin >> m;
+    cout << "Enter n: ";
+    cin >> n;
+
+    if (m <= 1) {
+        cout << "m must be greater than 1" << endl;
+        return;
+    } else if (n <= m) {
+        cout << "n must be greater than m" << endl;
+        return;
+    }
+
+    for (int i = 0; i < infinity(); ++i) {
+        if (pow(m, i) > n) {
+            cout << "k = " << i << endl;
+            break;
+        }
+    }
+
+//    int k = 0;
+//    while (pow(m, k) <= n) {
+//        k++;
+//    }
+//    cout << "k = " << k << endl;
+
+//    int k = 0;
+//    do {
+//        k++;
+//    } while (pow(m, k) <= n);
+//    cout << "k = " << k << endl;
+}
+
+void task5() {
+    int n;
+    cout << "Enter n: ";
+    cin >> n;
+
+    int count = 0;
+    for (int i = n; i > 0; i /= 10) {
+        if (i % 10 > 3) {
+            count++;
+        }
+    }
+    cout << "Count = " << count << endl;
+}
