@@ -4,6 +4,7 @@
 #include "LB2/task2.h"
 #include "LB6/lab6.h"
 #include "LB7/task7.h"
+#include "ciscoLab1_6_1/c6.h"
 
 using namespace std;
 
@@ -25,10 +26,11 @@ int main() {
 //    double x = 2.123456;
 //    cout <<fixed<<  x << endl;
 
-    countDigitsGreaterThatThree(123456);
-    tramStops(1);
+//LB6
+//    countDigitsGreaterThatThree(123456);
+//    tramStops(1);
 
-
+//LB7
 //    task1_6();
 //    task2();
 //    task3();
@@ -36,6 +38,12 @@ int main() {
 //    task4_5();
 //    task5();
 
+//CiscoLab1_6_1
+
+//    task_c_6();
+//    task_c_7();
+//    task_c_8();
+//    task_c_9();
 
     return 0;
 }
