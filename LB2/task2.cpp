@@ -2,7 +2,7 @@
 // Created by DaNaRim on 13.09.2022.
 //
 
-#include "Task2.h"
+#include "task2.h"
 
 bool isPointInShape4(double point[1][2]) {
     int shape[5][2] = {

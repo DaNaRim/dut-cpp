@@ -6,7 +6,7 @@
 #define DUT_CPP_TASK2_H
 
 
-class Task2 {
+class task2 {
 
 };
 

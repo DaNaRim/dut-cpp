@@ -1,5 +1,5 @@
 #include <cmath>
-#include "Task7.h"
+#include "task7.h"
 
 int factorial(int n) {
     if (n == 0) return 1;

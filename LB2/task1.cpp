@@ -3,7 +3,7 @@
 //
 
 #include <cmath>
-#include "Task1.h"
+#include "task1.h"
 
 
 double getY6(int x, int b, int c) {

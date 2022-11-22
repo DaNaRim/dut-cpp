@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Task7 {
+class task7 {
 
 
 
