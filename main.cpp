@@ -7,6 +7,7 @@
 #include "ciscoLab1_6_1/c1.h"
 #include "ciscoLab2_3_1/c2.h"
 #include "PZ11/pz11.h"
+#include "PZ12/pz12.h"
 
 using namespace std;
 
@@ -59,6 +60,16 @@ int main() {
 //    task_pz_11_greaterThanInput();
 //    task_pz_11_secondMax();
 //    task_pz_11_findZeroIndex();
+
+//PZ12
+//    task_pz_12_countEvenInRow();
+//    task_pz_12_countEvenInColumn();
+//    task_pz_12_sumOfRow();
+//    task_pz_12_sumOfColumn();
+//    task_pz_12_findMaxAndIndex();
+//    task_pz_12_findMinAndIndex();
+//    task_pz_12_sumByDiagonal();
+
 
     return 0;
 }
