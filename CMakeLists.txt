@@ -3,4 +3,4 @@ project(dut_cpp)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(dut_cpp main.cpp LB1/task1.cpp LB1/task1.h LB2/task2.cpp LB2/task2.h LB2/task1.cpp LB2/task1.h LB7/task7.cpp LB7/task7.h LB6/lab6.cpp LB6/lab6.h ciscoLab1_6_1/c6.cpp ciscoLab1_6_1/c6.h)
+add_executable(dut_cpp main.cpp LB1/task1.cpp LB1/task1.h LB2/task2.cpp LB2/task2.h LB2/task1.cpp LB2/task1.h LB7/task7.cpp LB7/task7.h LB6/lab6.cpp LB6/lab6.h ciscoLab1_6_1/c1.cpp ciscoLab1_6_1/c1.h ciscoLab2_3_1/c2.cpp ciscoLab2_3_1/c2.h)

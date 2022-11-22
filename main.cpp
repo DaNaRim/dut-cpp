@@ -4,7 +4,8 @@
 #include "LB2/task2.h"
 #include "LB6/lab6.h"
 #include "LB7/task7.h"
-#include "ciscoLab1_6_1/c6.h"
+#include "ciscoLab1_6_1/c1.h"
+#include "ciscoLab2_3_1/c2.h"
 
 using namespace std;
 
@@ -39,11 +40,15 @@ int main() {
 //    task5();
 
 //CiscoLab1_6_1
-
 //    task_c_6();
 //    task_c_7();
 //    task_c_8();
 //    task_c_9();
+
+//CiscoLab2_3_1
+//    task2_6();
+//    task2_7();
+//    task2_10();
 
     return 0;
 }

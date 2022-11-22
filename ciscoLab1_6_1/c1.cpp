@@ -2,7 +2,7 @@
 // Created by DaNaRim on 22.11.2022.
 //
 
-#include "c6.h"
+#include "c1.h"
 
 #include <iostream>
 #include <iomanip>
