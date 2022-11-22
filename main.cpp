@@ -6,6 +6,7 @@
 #include "LB7/task7.h"
 #include "ciscoLab1_6_1/c1.h"
 #include "ciscoLab2_3_1/c2.h"
+#include "PZ11/pz11.h"
 
 using namespace std;
 
@@ -49,6 +50,15 @@ int main() {
 //    task2_6();
 //    task2_7();
 //    task2_10();
+
+//PZ11
+//    task_pz_11_sort_ask();
+//    task_pz_11_sort_desc();
+//    task_pz_11_fillWithZero();
+//    task_pz_11_swapMinAndMax();
+//    task_pz_11_greaterThanInput();
+//    task_pz_11_secondMax();
+//    task_pz_11_findZeroIndex();
 
     return 0;
 }
