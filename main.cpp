@@ -1,75 +1,65 @@
-#include <iostream>
-#include <cmath>
-#include "LB1/task1.h"
-#include "LB2/task2.h"
+#include "LB1/lab1.h"
+#include "LB2/lab2.h"
 #include "LB6/lab6.h"
-#include "LB7/task7.h"
-#include "ciscoLab1_6_1/c1.h"
-#include "ciscoLab2_3_1/c2.h"
+#include "LB7/lab7.h"
+#include "CiscoLab1_6_1/cl161.h"
+#include "CiscoLab2_3_1/cl231.h"
 #include "PZ11/pz11.h"
 #include "PZ12/pz12.h"
 
-using namespace std;
-
 int main() {
-//    cout << "f11 = " << f11(1, 20.01) << endl;
-//    cout << "f13 = " << f13(3, 2.712) << endl;
-//    cout << "f18 = " << f18(1, 0.001) << endl;
 
+// LB1
+//    lab1_v11_evalFun(1, 20.01);
+//    lab1_v13_evalFun(3, 2.712);
+//    lab1_v18_evalFun(1, 0.001);
+
+// LB2
+//    lab2_1_v6_evalFun(1, 2, 3);
 
 //    double point[1][2] = {{-1, -2}};
-//
-//    if (isPointInShape4(point)) {
-//        cout << "Point is in shape" << endl;
-//    } else {
-//        cout << "Point is not in shape" << endl;
-//    }
-//    return 0;
-//
-//    double x = 2.123456;
-//    cout <<fixed<<  x << endl;
+//    lab2_2_v4_isPointInShape(point);
+
 
 //LB6
-//    countDigitsGreaterThatThree(123456);
-//    tramStops(1);
+//    lab6_1_v6_countDigitsGreater3(123456);
+//    lab6_2_v6_tramStops(1);
 
 //LB7
-//    task1_6();
-//    task2();
-//    task3();
-//    task4_4();
-//    task4_5();
-//    task5();
+//    lab7_2_v5_sumOfSquareRoots();
+//    lab7_3_v5_tableEvalFun();
+//    lab7_4_v4_lnMaclaurinSeries();
+//    lab7_4_v5_findKForTrueFun();
+//    lab7_5_v5_sumOfDigitsGreater7();
 
 //CiscoLab1_6_1
-//    task_c_6();
-//    task_c_7();
-//    task_c_8();
-//    task_c_9();
+//    cl161_6_operatorsAndExpressions();
+//    cl161_7_printingData();
+//    cl161_8_nearZeroFloatNumbers();
+//    cl161_9_gettingInputFromUser();
 
 //CiscoLab2_3_1
-//    task2_6();
-//    task2_7();
-//    task2_10();
+//    cl231_2_6_collatzsHypothesis();
+//    cl231_2_7_findingValueOfPi();
+//    cl231_2_10_drawingSquares();
 
 //PZ11
-//    task_pz_11_sort_ask();
-//    task_pz_11_sort_desc();
-//    task_pz_11_fillWithZero();
-//    task_pz_11_swapMinAndMax();
-//    task_pz_11_greaterThanInput();
-//    task_pz_11_secondMax();
-//    task_pz_11_findZeroIndex();
+//    pz11_1_sort_ask();
+//    pz11_1_sort_desc();
+//    pz11_2_fillWithZero();
+//    pz11_3_swapMinAndMax();
+//    pz11_4_greaterThanInput();
+//    pz11_5_secondMax();
+//    pz11_6_findZeroIndex();
 
 //PZ12
-//    task_pz_12_countEvenInRow();
-//    task_pz_12_countEvenInColumn();
-//    task_pz_12_sumOfRow();
-//    task_pz_12_sumOfColumn();
-//    task_pz_12_findMaxAndIndex();
-//    task_pz_12_findMinAndIndex();
-//    task_pz_12_sumByDiagonal();
-
+//    pz12_1_countEvenInRow();
+//    pz12_2_countEvenInColumn();
+//    pz12_3_sumOfRow();
+//    pz12_4_sumOfColumn();
+//    pz12_5_findMaxAndIndex();
+//    pz12_6_findMinAndIndex();
+//    pz12_15_sumByDiagonal();
 
     return 0;
 }

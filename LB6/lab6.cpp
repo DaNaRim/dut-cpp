@@ -8,7 +8,7 @@
 
 using namespace std;
 
-void countDigitsGreaterThatThree(int n) {
+void lab6_1_v6_countDigitsGreater3(int n) {
     int count = 0;
     for (int i = n; i > 0; i /= 10) {
         if (i % 10 > 3) {
@@ -18,7 +18,7 @@ void countDigitsGreaterThatThree(int n) {
     cout << "In " << n << " digits greater that three = " << count << endl;
 }
 
-void tramStops(int tramNum) {
+void lab6_2_v6_tramStops(int tramNum) {
     switch (tramNum) {
         case 1: {
             cout << R"(Tram 1 first stop is "Red" and last stop is "Red")" << endl;

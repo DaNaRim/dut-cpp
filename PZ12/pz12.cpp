@@ -8,7 +8,7 @@
 
 using namespace std;
 
-void task_pz_12_countEvenInRow() {
+void pz12_1_countEvenInRow() {
     int m = 4;
     int n = 3;
 
@@ -38,7 +38,7 @@ void task_pz_12_countEvenInRow() {
     }
 }
 
-void task_pz_12_countEvenInColumn() {
+void pz12_2_countEvenInColumn() {
     int m = 6;
     int n = 4;
 
@@ -70,7 +70,7 @@ void task_pz_12_countEvenInColumn() {
     }
 }
 
-void task_pz_12_sumOfRow() {
+void pz12_3_sumOfRow() {
     int m = 5;
     int n = 7;
 
@@ -99,7 +99,7 @@ void task_pz_12_sumOfRow() {
     }
 }
 
-void task_pz_12_sumOfColumn() {
+void pz12_4_sumOfColumn() {
     int m = 4;
     int n = 6;
 
@@ -127,7 +127,7 @@ void task_pz_12_sumOfColumn() {
     }
 }
 
-void task_pz_12_findMaxAndIndex() {
+void pz12_5_findMaxAndIndex() {
     int m = 3;
     int n = 4;
 
@@ -161,7 +161,7 @@ void task_pz_12_findMaxAndIndex() {
     cout << "Max element is " << max << " at index (" << max_i << ", " << max_j << ")" << endl;
 }
 
-void task_pz_12_findMinAndIndex() {
+void pz12_6_findMinAndIndex() {
     int m = 4;
     int n = 7;
 
@@ -196,7 +196,7 @@ void task_pz_12_findMinAndIndex() {
     cout << "Min element is " << min << " at index (" << min_i << ", " << min_j << ")" << endl;
 }
 
-void task_pz_12_sumByDiagonal() {
+void pz12_15_sumByDiagonal() {
     int m = 3;
     int n = 3;
 

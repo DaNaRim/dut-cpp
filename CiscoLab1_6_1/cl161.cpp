@@ -2,14 +2,14 @@
 // Created by DaNaRim on 22.11.2022.
 //
 
-#include "c1.h"
+#include "cl161.h"
 
 #include <iostream>
 #include <iomanip>
 
 using namespace std;
 
-void task_c_6() {
+void cl161_6_operatorsAndExpressions() {
     int value;
     cout << "Enter a value: ";
     cin >> value;
@@ -18,7 +18,7 @@ void task_c_6() {
     cout << (answer ? "THAT'S TRUE :)" : "THAT'S NOT TRUE :(") << endl;
 }
 
-void task_c_7() {
+void cl161_7_printingData() {
     double n1, n2, n3, n4, n5;
     cin >> n1 >> n2 >> n3 >> n4 >> n5;
 
@@ -29,7 +29,7 @@ void task_c_7() {
     cout << (int) n5 << endl;
 }
 
-void task_c_8() {
+void cl161_8_nearZeroFloatNumbers() {
     double epsilon = 0.000001;
 
     int n1, n2;
@@ -42,7 +42,7 @@ void task_c_8() {
     }
 }
 
-void task_c_9() {
+void cl161_9_gettingInputFromUser() {
     int part1, part2, part3, part4;
     cin >> part1 >> part2 >> part3 >> part4;
 

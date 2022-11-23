@@ -1,12 +1,16 @@
 #include <cmath>
-#include "task7.h"
+#include "lab7.h"
+
+#include "iostream"
+
+using namespace std;
 
 int factorial(int n) {
     if (n == 0) return 1;
     return n * factorial(n - 1);
 }
 
-void task1() {
+void lab7_1_evalFun() {
     int x;
     cout << "Enter x: ";
     cin >> x;
@@ -16,7 +20,7 @@ void task1() {
     cout << "y = " << y << endl << endl;
 }
 
-void task2() {
+void lab7_2_v5_sumOfSquareRoots() {
     double rootSum;
 
     for (int i = 10; i < 20; ++i) {
@@ -25,7 +29,7 @@ void task2() {
     cout << "rootSum = " << rootSum << endl << endl;
 }
 
-void task3() {
+void lab7_3_v5_tableEvalFun() {
     int a, b, h;
     cout << "Enter a: ";
     cin >> a;
@@ -45,7 +49,7 @@ void task3() {
     }
 }
 
-void task4_4() {
+void lab7_4_v4_lnMaclaurinSeries() {
     int x, e;
     cout << "Enter x: ";
     cin >> x;
@@ -71,7 +75,7 @@ void task4_4() {
     cout << "Count = " << count << endl << endl;
 }
 
-void task4_5() {
+void lab7_4_v5_findKForTrueFun() {
     int n, m;
     cout << "Enter m: ";
     cin >> m;
@@ -106,7 +110,7 @@ void task4_5() {
 //    cout << "k = " << k << endl;
 }
 
-void task5() {
+void lab7_5_v5_sumOfDigitsGreater7() {
     int n;
     cout << "Enter n: ";
     cin >> n;

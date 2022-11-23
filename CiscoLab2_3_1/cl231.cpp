@@ -2,14 +2,14 @@
 // Created by DaNaRim on 22.11.2022.
 //
 
-#include "c2.h"
+#include "cl231.h"
 
 #include <iostream>
 #include <valarray>
 
 using namespace std;
 
-void task2_6() {
+void cl231_2_6_collatzsHypothesis() {
     int num;
     cin >> num;
 
@@ -27,7 +27,7 @@ void task2_6() {
     cout << "Count of operations: " << countOperations << endl;
 }
 
-void task2_7() {
+void cl231_2_7_findingValueOfPi() {
     int countIterations;
     cin >> countIterations;
 
@@ -42,7 +42,7 @@ void task2_7() {
     cout << "Pi: " << pi << endl;
 }
 
-void task2_10() {
+void cl231_2_10_drawingSquares() {
     int squareSize;
 
     while (squareSize <= 1 || squareSize > 20) {

@@ -8,7 +8,7 @@
 
 using namespace std;
 
-void task_pz_11_sort_ask() {
+void pz11_1_sort_ask() {
     int arrayLength = 12;
 
     int array[arrayLength];
@@ -40,7 +40,7 @@ void task_pz_11_sort_ask() {
     cout << endl;
 }
 
-void task_pz_11_sort_desc() {
+void pz11_1_sort_desc() {
     int arrayLength = 12;
 
     int array[arrayLength];
@@ -72,7 +72,7 @@ void task_pz_11_sort_desc() {
     cout << endl;
 }
 
-void task_pz_11_fillWithZero() {
+void pz11_2_fillWithZero() {
     int arrayLength = 20;
 
     int array[arrayLength];
@@ -106,7 +106,7 @@ void task_pz_11_fillWithZero() {
     cout << endl;
 }
 
-void task_pz_11_swapMinAndMax() {
+void pz11_3_swapMinAndMax() {
     int arrayLength = 12;
 
     int array[arrayLength];
@@ -143,7 +143,7 @@ void task_pz_11_swapMinAndMax() {
     cout << endl;
 }
 
-void task_pz_11_greaterThanInput() {
+void pz11_4_greaterThanInput() {
     int arrayLength = 12;
 
     int array[arrayLength];
@@ -172,7 +172,7 @@ void task_pz_11_greaterThanInput() {
     cout << "Count: " << count << endl;
 }
 
-void task_pz_11_secondMax() {
+void pz11_5_secondMax() {
     int arrayLength = 12;
 
     int array[arrayLength];
@@ -200,7 +200,7 @@ void task_pz_11_secondMax() {
     cout << "Second max: " << secondMax << endl;
 }
 
-void task_pz_11_findZeroIndex() {
+void pz11_6_findZeroIndex() {
     int arrayLength = 20;
 
     int array[arrayLength];

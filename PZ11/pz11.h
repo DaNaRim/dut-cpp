@@ -5,18 +5,15 @@
 #ifndef DUT_CPP_PZ11_H
 #define DUT_CPP_PZ11_H
 
+//https://dn.dut.edu.ua/pluginfile.php/22863/mod_resource/content/1/pz-11.pdf
 
-class pz11 {
-
-};
-
-void task_pz_11_sort_ask();
-void task_pz_11_sort_desc();
-void task_pz_11_fillWithZero();
-void task_pz_11_swapMinAndMax();
-void task_pz_11_greaterThanInput();
-void task_pz_11_secondMax();
-void task_pz_11_findZeroIndex();
+void pz11_1_sort_ask();
+void pz11_1_sort_desc();
+void pz11_2_fillWithZero();
+void pz11_3_swapMinAndMax();
+void pz11_4_greaterThanInput();
+void pz11_5_secondMax();
+void pz11_6_findZeroIndex();
 
 
 #endif //DUT_CPP_PZ11_H
